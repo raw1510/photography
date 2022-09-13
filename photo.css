@@ -1,0 +1,78 @@
+#container{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: 0px;
+    padding: 0%s;
+}
+#img-text{
+    width: 30%;
+    border: 10px solid black;
+    text-align: center;
+}
+form{
+    background: url("form-back.jfif") no-repeat center;
+    background-size: cover;
+    margin-top: 50px;
+}
+#form-name{
+    float: left;
+    width: 50%;
+    font-size: 100px;
+    color:crimson;
+
+}
+#form-content{
+    float: right;
+    width: 50%;
+    text-align: left;
+    padding-top: 100px ;
+    color: white;
+}
+
+.text-box{
+    overflow: hidden;
+    width: 100%;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid crimson;
+}
+.text-box input{
+    outline: none;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+}
+.text-box textarea{
+    outline: none;
+    border: none;
+    background: none;
+    width: 700px;
+    color: white;   
+
+}
+.btn{
+    background: none;
+    border: 2px solid crimson;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 50px;
+    border-radius: 30px;
+}
+#footer{
+    line-height: 100px;
+    background-color: black;
+    color: #fff;
+    
+}
+#inner-footer{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    line-height: 100px;
+}
